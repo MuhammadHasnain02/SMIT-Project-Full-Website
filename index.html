@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Website</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="Screenshot 2025-08-02 123534.png" type="image/x-icon">
+    
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    
+    <!-- Tailwind Css -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Google Font Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+        .montserrat-uniquifier{
+            font-family: "Montserrat";
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+        }
+        body{
+            font-family: "Montserrat";
+        }
+        .navInp>::placeholder{
+            font-weight: 500;
+        }
+        .navInp>input{
+            box-shadow: 0px 3px 10px rgb(163, 163, 163) ;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="grid grid-cols-12 gap-2 py-4 bg-gray-50">
+
+        <div class="col-span-2 flex items-center">
+            <a href="index.html"><img src="Web Logo.png" alt="Web Logo" class="pl-8 hover:cursor-pointer"></a>
+        </div>
+        <div class="col-span-6 text-center navInp">
+            <input type="search" placeholder="Search the Store" 
+            class="shadow-md rounded-md w-[560px] p-2 pl-5 font-sans">
+        </div>
+        <div class="col-span-2 text-center pl-5 hover:cursor-pointer">
+            <i class="fa-solid fa-phone"></i>
+            <p class="text-[15px]">0111-111-000-1</p>
+        </div>
+        <div class="col-span-1 text-center hover:cursor-pointer">
+            <i class="fa-solid fa-user text-[25px]"></i>
+            <p class="text-[13px]">Sign In</p>
+        </div>
+        <div class="col-span-1 text-center hover:cursor-pointer">
+            <i class="fa-solid fa-cart-plus text-[25px]"></i>
+            <p class="text-[13px]">Cart</p>
+        </div>
+
+    </nav>
+
+    <nav class="grid grid-cols-12 gap-2 bg-green-900 text-white px-6 py-4">
+    
+        <div class="col-span-9 flex flex-row items-center justify-between">
+            <a href="#" class="hover:cursor-pointer hover:underline">Computers & Components</a>
+            <a href="#" class="hover:cursor-pointer hover:underline">Electronics</a>
+            <a href="#" class="hover:cursor-pointer hover:underline">Gaming Chairs & Tables</a>
+            <a href="#" class="hover:cursor-pointer hover:underline">Software & Services</a>
+            <a href="#" class="hover:cursor-pointer hover:underline">Home Appliances</a>
+            <a href="#" class="hover:cursor-pointer hover:underline">Kitchen & Dining</a>
+        </div>
+
+        <div class="col-span-3 pr-7 flex flex-row justify-end">
+            <div class="flex flex-row border-[1px] border-gray-500 px-3 py-1 hover:cursor-pointer hover:border-green-900">
+                <i class="fa-regular fa-user pr-2"></i>
+                <p class="text-[15px]">Contact Us</p>
+            </div>
+        </div>
+
+    </nav>
+
+</body>
+</html>
