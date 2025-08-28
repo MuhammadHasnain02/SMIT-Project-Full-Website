@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Full Website</title>
+
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="Screenshot 2025-08-02 123534.png" type="image/x-icon">
     
@@ -19,23 +24,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <style>
-        .montserrat-uniquifier{
-            font-family: "Montserrat";
-            font-optical-sizing: auto;
-            font-weight: 500;
-            font-style: normal;
-        }
-        body{
-            font-family: "Montserrat";
-        }
-        .navInp>::placeholder{
-            font-weight: 500;
-        }
-        .navInp>input{
-            box-shadow: 0px 3px 10px rgb(163, 163, 163) ;
-        }
-    </style>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -47,7 +38,7 @@
         </div>
         <div class="col-span-6 text-center navInp">
             <input type="search" placeholder="Search the Store" 
-            class="shadow-md rounded-md w-[560px] p-2 pl-5 font-sans">
+            class="shadow-md rounded-md w-[560px] p-2.5 pl-5 font-sans focus:outline-none">
         </div>
         <div class="col-span-2 text-center pl-5 hover:cursor-pointer">
             <i class="fa-solid fa-phone"></i>
@@ -83,6 +74,22 @@
         </div>
 
     </nav>
+
+    <section class="">
+        <div class="relative single-item w-full h-screen max-w-[1200px] max-h-[1300px] mx-30 2xl:max-w-[1200px] 2xl:max-h-[1300px] 2xl:mx-50">
+            <a href="" class="flex justify-center"><img src="Slider Images/1.jpg" class="w-[100%]"></a>
+            <a href="" class="flex justify-center"><img src="Slider Images/2.jpg" class="w-[100%]"></a>
+            <a href="" class="flex justify-center"><img src="Slider Images/3.jpg" class="w-[100%]"></a>
+            <a href="" class="flex justify-center"><img src="Slider Images/4.jpg" class="w-[100%]"></a>
+            <a href="" class="flex justify-center"><img src="Slider Images/5.jpg" class="w-[100%]"></a>
+            <a href="" class="flex justify-center"><img src="Slider Images/6.jpg" class="w-[100%]"></a>
+            <a href="" class="flex justify-center"><img src="Slider Images/7.jpg" class="w-[100%]"></a>
+        </div>
+    </section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="app.js"></script>
 
 </body>
 </html>
