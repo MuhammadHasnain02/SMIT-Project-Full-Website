@@ -5,7 +5,7 @@ $('.single-item').slick({
     infinite: true,
     speed: 1000,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 4000,
 
     // responsive: [
     //     { breakpoint: 1024, settings: { slidesToShow: 3 } },
@@ -22,8 +22,7 @@ $('.FPSlider').slick({
     speed: 1000,
     slidesToShow: 4,
     slidesToScroll: 4,
-    autoplay: true,
-    autoplaySpeed: 2000,
+    autoplay: false,
 
     // responsive: [
     //     { breakpoint: 1024, settings: { slidesToShow: 3 } },
